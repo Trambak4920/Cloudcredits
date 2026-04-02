@@ -1,7 +1,7 @@
 # Cloudcredits — Machine Learning & AI Internship Projects
 
-This repository contains 5 Machine Learning projects completed as part of the
-**Cloudcredits ML & AI Internship**.
+This repository contains Machine Learning projects completed as part of the
+**ML & AI Internship**.
 
 ---
 
@@ -9,11 +9,11 @@ This repository contains 5 Machine Learning projects completed as part of the
 
 | # | File | Task | Algorithm | Dataset |
 |---|------|------|-----------|---------|
-| 1 | `task1_house_price_prediction.py`      | House Price Prediction        | Linear Regression          | California Housing (sklearn) |
-| 3 | `task3_handwritten_digit_recognition.py`| Handwritten Digit Recognition | CNN (Deep Learning)        | MNIST                        |
-| 6 | `task6_sentiment_analysis.py`          | Sentiment Analysis            | Naive Bayes + LSTM         | IMDb (Keras built-in)        |
-| 9 | `task9_stock_price_prediction.py`      | Stock Price Prediction        | LSTM                       | Yahoo Finance (AAPL)         |
-| 10| `task10_breast_cancer_prediction.py`   | Breast Cancer Prediction      | SVM + Random Forest        | Breast Cancer Wisconsin      |
+| 1 | `House Price Prediction`      | House Price Prediction        | Linear Regression          | California Housing (sklearn) |
+| 3 | `Handwritten Digit Recognition`| Handwritten Digit Recognition | CNN (Deep Learning)        | MNIST                        |
+| 6 | `Sentiment Analysis`          | Sentiment Analysis            | Naive Bayes + LSTM         | IMDb (Keras built-in)        |
+| 9 | `Stock Price Prediction`      | Stock Price Prediction        | LSTM                       | Yahoo Finance (AAPL)         |
+| 10| `Breast Cancer Prediction`   | Breast Cancer Prediction      | SVM + Random Forest        | Breast Cancer Wisconsin      |
 
 ---
 
@@ -21,7 +21,7 @@ This repository contains 5 Machine Learning projects completed as part of the
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/Cloudcredits.git
+git clone https://github.com/Trambak4920/Cloudcredits.git
 cd Cloudcredits
 
 # 2. (Recommended) Create a virtual environment
@@ -39,11 +39,11 @@ pip install -r requirements.txt
 Each script is fully self-contained. Run any of them directly:
 
 ```bash
-python task1_house_price_prediction.py
-python task3_handwritten_digit_recognition.py
-python task6_sentiment_analysis.py
-python task9_stock_price_prediction.py
-python task10_breast_cancer_prediction.py
+python house_price_prediction.py
+python handwritten_digit_recognition.py
+python sentiment_analysis.py
+python stock_price_prediction.py
+python breast_cancer_prediction.py
 ```
 
 Each script will:
@@ -85,21 +85,6 @@ Each script will:
 - **Algorithm**: SVM (RBF Kernel) + Random Forest
 - **Evaluation**: Accuracy, Precision, Recall, F1, ROC-AUC
 - **Output plots**: `task10_eda.png`, `task10_correlation_heatmap.png`, `task10_confusion_matrices.png`, `task10_roc_curves.png`, `task10_feature_importance.png`
-
----
-
-## 🏗️ General Project Structure (as per internship guidelines)
-
-1. **Define the Problem** — Understand the objective and problem type
-2. **Collect & Prepare Data** — Load dataset, handle missing values
-3. **Exploratory Data Analysis (EDA)** — Visualise patterns and correlations
-4. **Feature Engineering** — Select/create relevant features
-5. **Split the Data** — Train/test split
-6. **Choose a Model** — Select appropriate algorithm
-7. **Train the Model** — Fit on training data
-8. **Evaluate the Model** — Metrics on test data
-9. **Improve the Model** — Dropout, BatchNorm, EarlyStopping, hyperparameter tuning
-
 ---
 
 ## 🏷️ Tags
